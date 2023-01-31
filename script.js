@@ -12,7 +12,6 @@ const options = {
 const apiURL = "https://api.api-ninjas.com/v1/dadjokes?limit=1";
 
 async function getJoke() {
-	
 	try {
 		jokeEl.innerText = "Uploading...";
 		btnEl.disabled = true;
@@ -31,9 +30,6 @@ async function getJoke() {
 		btnEl.disabled = false;
 		btnEl.innerText = "Tel me a Joke";
 	}
-
-
 }
-
 
 btnEl.addEventListener("click", getJoke);

@@ -57,4 +57,16 @@ body{
 	box-shadow: 0 4px 4px rgba(0, 0, 0, .3);
 	transition: all 0.5s ease;
 }
-@
+@media (max-width: 798px){
+	.btn {
+		font-size: 14px;
+		width: 35%;
+	}
+}
+
+@media (max-width: 652px) {
+	.btn {
+		font-size: 14px;
+		min-width: 45%;
+	}
+}
